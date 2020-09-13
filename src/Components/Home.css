@@ -1,0 +1,30 @@
+.input {
+  margin-bottom: 1rem;
+  width: 80%;
+}
+
+.label {
+  color: black;
+  font-size: 15px;
+}
+
+.subtitle {
+  color: black;
+}
+
+.text-detail-button {
+  font-weight: bold;
+}
+
+.no-factura {
+  background-color: red;
+  border-radius: 10px;
+  padding: 0.2rem 0.2rem;
+}
+
+.si-factura {
+  background-color: green;
+  border-radius: 10px;
+  color: white;
+  padding: 0.2rem 0.2rem;
+}
