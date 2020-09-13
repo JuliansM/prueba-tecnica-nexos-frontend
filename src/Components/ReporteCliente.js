@@ -59,7 +59,7 @@ class ReporteCliente extends React.Component {
                                     <hr />
                                 </li>
                             )
-                        }) : <span></span>
+                        }) : <span className="label">Sin resultados.</span>
                     }
                 </ul>
             </React.Fragment>

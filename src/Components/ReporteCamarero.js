@@ -325,7 +325,7 @@ class ReporteCamarero extends React.Component {
                                         </li>
                                     )
                             }
-                        }) : <span className="label">Algo esta mal</span>
+                        }) : <span className="label">Sin resultados.</span>
                     }
                 </ul>
             </React.Fragment>

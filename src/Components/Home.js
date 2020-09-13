@@ -156,7 +156,6 @@ class Home extends React.Component {
             };
             this.state.detalleFactura.push(detail);
             this.setState({
-                idCocinero: '',
                 descripcionPlato: '',
                 valorPlato: 0
             });
@@ -423,7 +422,7 @@ class Home extends React.Component {
                             <div className="row">
                                 <div className="col-sm-3"></div>
                                 <div className="col-sm-6">
-                                    <div className="card">
+                                    <div className="card mb-5">
                                         <div className="card-header">
                                             <h4 className="subtitle text-info">Reporte de camareros</h4>
                                         </div>
@@ -441,7 +440,7 @@ class Home extends React.Component {
                             <div className="row">
                                 <div className="col-sm-3"></div>
                                 <div className="col-sm-6">
-                                    <div className="card">
+                                    <div className="card mb-5">
                                         <div className="card-header">
                                             <h4 className="subtitle text-info">Reporte de clientes</h4>
                                         </div>
